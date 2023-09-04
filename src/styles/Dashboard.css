@@ -1,0 +1,48 @@
+.Dashboard{
+    display:flex;
+}
+.Dashboard article{
+    width:100%;
+}
+header{
+    margin-left:2%;
+    margin-right:2%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    display:flex;
+    align-items: center;
+    gap:5%;
+    font-size:30px;
+}
+header div input{
+    font-size:22px;
+}
+.DashboardMain{
+    margin-top:50px;
+    margin-left:2%;
+    margin-bottom:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+.DashboardMain img{
+    height:500px;
+    border-radius:10px;
+}
+.DashboardMain section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    gap:20px;
+}
+.DashboardMain section button{
+    background-color: #35DCC2;
+    width: 80%;
+    height:60px;
+    border-radius: 10px;
+}

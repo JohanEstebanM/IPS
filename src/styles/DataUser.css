@@ -1,0 +1,38 @@
+.DataUser{
+    margin-top:200px;
+    margin-bottom:150px;
+    display:flex;
+    justify-content: center;
+}
+.DataUser form{
+    background-color:#35DCC2;
+    width:50%;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding:10px;
+}
+.DataUser button{
+    width:30%;
+    padding:5px;
+    border-radius: 20px;
+}
+.DataUser button:hover{
+    background-color: #61EAD4;
+}
+.DataUser form div{
+    display:flex;
+    gap:2%;
+}
+.DataUser form div i{
+    font-size:50px;
+    color: white;
+}
+.DataUser form div input{
+    width:500px;
+    height:50px;
+    font-size:20px;
+    border-radius: 10px;
+}

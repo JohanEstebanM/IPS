@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.float {
+  animation: float-animation 2.5s infinite ease-in-out;
+}
+p{
+  font-size:16px;
+}
+h1{
+  font-size:45px;
+}
+h2{
+  font-size:30px;
+}
+h3{
+  font-size:25px;
+}
+label{
+  font-size:17px;
+}
+button{
+  font-size:25px;
+}
+
+@keyframes float-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+}
