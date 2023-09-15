@@ -4,7 +4,7 @@ import '../styles/ProfileMenu.css';
 const ProfileMenu = () => {
   return (
     <nav className="ProfileMenu">
-      <img src="../../public/Logo.png" alt="Logo" />
+      <img src="../../public/LogoS.png" alt="Logo" />
       <section>
         <h2>Gestión</h2>
         <div>

@@ -8,6 +8,6 @@ import Dashboard from './views/Dashboard';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SignIn></SignIn>
+    <Dashboard></Dashboard>
   </React.StrictMode>,
 );

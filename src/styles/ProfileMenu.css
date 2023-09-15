@@ -8,12 +8,12 @@
     left: 0;
     height: 100vh;
     width: 20%;
-    gap: 10%;
+    gap: 6%;
     padding: 10px;
     z-index:-1;
 }
 .ProfileMenu img{
-    width:80%;
+    width:100%;
 }
 .ProfileMenu section{
     display:flex;
