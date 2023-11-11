@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './views/Home';
-import Login from './views/Login';
-import SignIn from './views/SignIn';
+import { router } from './router';
+import { RouterProvider } from 'react-router-dom';
 import Dashboard from './views/Dashboard';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Dashboard></Dashboard>
+    {/*<RouterProvider router={router}></RouterProvider>*/}
   </React.StrictMode>,
 );

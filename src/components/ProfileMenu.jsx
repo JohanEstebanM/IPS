@@ -8,19 +8,19 @@ const ProfileMenu = () => {
       <section>
         <h2>Gestión</h2>
         <div>
-          <i class="fa-solid fa-desktop"></i>
+          <i className="fa-solid fa-desktop"></i>
           <p>Principal</p>
         </div>
         <div>
-          <i class="fa-solid fa-stethoscope"></i>
+          <i className="fa-solid fa-stethoscope"></i>
           <p>Lista Médicos</p>
         </div>
         <div>
-          <i class="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user"></i>
           <p>Datos del Usuario</p>
         </div>
         <div>
-          <i class="fa-solid fa-right-to-bracket"></i>
+          <i className="fa-solid fa-right-to-bracket"></i>
           <p>Cerrar Sesión</p>
         </div>
       </section>

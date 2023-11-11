@@ -8,25 +8,25 @@ const Dashboard = () => {
     <div>
       <div className="Dashboard">
         <ProfileMenu></ProfileMenu>
-        <article>
+        <div>
           <header>
             <h1>Bienvenido Johan</h1>
             <div>
               <button type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
               <input type="text" placeholder="Buscar" />
             </div>
           </header>
           <main className="DashboardMain">
-            <img src="../../public/Medico.png" alt="Medicos" />
+            <img src="../../public/Medicos.png" alt="Medicos" />
             <section>
               <button>Ver citas</button>
               <button>Pedir cita</button>
               <button>Revisar diagnostico</button>
             </section>
           </main>
-        </article>
+        </div>
       </div>
       <Footer></Footer>
     </div>

@@ -11,11 +11,11 @@ const Login = () => {
         <form action="">
           <h2>Ingresa tus datos</h2>
           <div>
-            <i class="fa-solid fa-square-envelope"></i>
+            <i className="fa-solid fa-square-envelope"></i>
             <input type="text" placeholder="Correo electronico" />
           </div>
           <div>
-            <i class="fa-solid fa-lock"></i>
+            <i className="fa-solid fa-lock"></i>
             <input type="text" placeholder="Contraseña" />
           </div>
           <button type="submit">Iniciar Sesion</button>

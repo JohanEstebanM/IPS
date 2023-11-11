@@ -8,10 +8,10 @@ const Home = () => {
     <>
       <Nav></Nav>
       <main className="Home">
-        <article>
+        <header>
           <h1>Bienvenido a la IPS MataZanos</h1>
           <h2>Tu salud en nuestras Manoz</h2>
-        </article>
+        </header>
         <section>
           <img src="../../public/Viejitos.png" alt="imagenes" />
           <img src="../../public/Doctores.png" alt="imagenes" />

@@ -1,21 +1,25 @@
 .Dashboard{
     display:flex;
 }
-.Dashboard article{
+.Dashboard div{
     width:100%;
 }
 header{
+    width:96%;
     margin-left:2%;
     margin-right:2%;
     display:flex;
     justify-content: space-between;
-    align-items: center;
+}
+header h1{
+    width:100%;
 }
 header div{
     display:flex;
     align-items: center;
     gap:5%;
     font-size:30px;
+    justify-content: flex-end;
 }
 header div input{
     font-size:22px;
