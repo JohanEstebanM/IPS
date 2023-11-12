@@ -7,7 +7,7 @@ import Dashboard from './views/Dashboard';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Dashboard></Dashboard>
-    {/*<RouterProvider router={router}></RouterProvider>*/}
+    {/*<Dashboard></Dashboard>*/}
+    <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>,
 );

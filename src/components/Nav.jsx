@@ -4,16 +4,15 @@ import { useNavigate } from 'react-router-dom';
 
 const Nav = () => {
   const navigate = useNavigate();
+  const handleHome = () => {
+    navigate('/');
+  };
   const handleLoginClick = () => {
     navigate('/Login');
   };
 
   const handleSignInClick = () => {
     navigate('/SignIn');
-  };
-
-  const handleHome = () => {
-    navigate('/');
   };
   return (
     <nav className="NavHome">
