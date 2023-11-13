@@ -19,7 +19,7 @@ const Dashboard = () => {
             </div>
           </header>
           <main className="DashboardMain">
-            <img src="../../public/Medicos.png" alt="Medicos" />
+            <img src="public/Medicos.png" alt="Medicos" />
             <section>
               <button>Ver citas</button>
               <button>Pedir cita</button>

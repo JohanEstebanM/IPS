@@ -18,7 +18,7 @@ const Nav = () => {
     <nav className="NavHome">
       <div>
         <button onClick={handleHome}>
-          <img src="../../public/LogoSn.png" alt="Logo" />
+          <img src="public/LogoSn.png" alt="Logo" />
           <p>MataZanos</p>
         </button>
       </div>
