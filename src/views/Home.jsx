@@ -13,9 +13,9 @@ const Home = () => {
           <h2>Tu salud en nuestras Manoz</h2>
         </header>
         <section>
-          <img src="public/Viejitos.png" alt="imagenes" />
-          <img src="public/Doctores.png" alt="imagenes" />
-          <img src="public/Familia.png" alt="imagenes" />
+          <img src="Viejitos.png" alt="imagenes" />
+          <img src="Doctores.png" alt="imagenes" />
+          <img src="Familia.png" alt="imagenes" />
         </section>
       </main>
       <Footer></Footer>
