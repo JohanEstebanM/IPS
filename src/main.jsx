@@ -8,8 +8,8 @@ import CreateAppointment from './views/CreateAppointment';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/**/}
-    <CreateAppointment></CreateAppointment>
-    {/* <RouterProvider router={router}></RouterProvider>*/}
+    {/*<CreateAppointment></CreateAppointment>*/}
+    <RouterProvider router={router}></RouterProvider>
+    {/* */}
   </React.StrictMode>,
 );

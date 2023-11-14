@@ -7,6 +7,7 @@ const Nav = () => {
   const handleHome = () => {
     navigate('/');
   };
+
   const handleLoginClick = () => {
     navigate('/Login');
   };
