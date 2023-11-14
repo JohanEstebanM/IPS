@@ -7,14 +7,16 @@ const Footer = () => {
     <footer>
       <h2>Descripcion del trabajo:</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, tempore eum
-        laudantium maiores distinctio autem impedit illo voluptates nobis hic possimus
-        adipisci, eius veniam vitae incidunt accusantium. Labore, minus nobis.
+        El software de asignación de citas desarrollado para la IPS Matazanos es una
+        solución integral diseñada para optimizar y agilizar el proceso de programación de
+        citas médicas. Esta herramienta permite a los pacientes programar fácilmente citas
+        en línea, acceder a la disponibilidad en tiempo real y mantener un historial
+        detallado de citas anteriores.
       </p>
       <h2>Trabajo hecho por:</h2>
       <section>
         <InfoMembers
-          Name={'Juguito de borojo'}
+          Name={'Dios'}
           Email={'morenojimenezjohanesteban@gmail.com'}
           Phone={'3218312687'}
           Linkedin={

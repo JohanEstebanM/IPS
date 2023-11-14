@@ -24,7 +24,7 @@ header div{
 header div input{
     font-size:22px;
 }
-.DashboardMain{
+.Dashboard Main{
     margin-top:50px;
     margin-left:2%;
     margin-bottom:50px;
@@ -49,4 +49,7 @@ header div input{
     width: 80%;
     height:60px;
     border-radius: 10px;
+}
+.Dashboard section button:hover{
+    background-color: #61EAD4;
 }

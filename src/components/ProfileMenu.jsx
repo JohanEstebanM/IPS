@@ -7,22 +7,18 @@ const ProfileMenu = () => {
       <img src="../../public/LogoS.png" alt="Logo" />
       <section>
         <h2>Gestión</h2>
-        <div>
+        <button>
           <i className="fa-solid fa-desktop"></i>
           <p>Principal</p>
-        </div>
-        <div>
-          <i className="fa-solid fa-stethoscope"></i>
-          <p>Lista Médicos</p>
-        </div>
-        <div>
+        </button>
+        <button>
           <i className="fa-solid fa-user"></i>
           <p>Datos del Usuario</p>
-        </div>
-        <div>
+        </button>
+        <button>
           <i className="fa-solid fa-right-to-bracket"></i>
           <p>Cerrar Sesión</p>
-        </div>
+        </button>
       </section>
     </nav>
   );

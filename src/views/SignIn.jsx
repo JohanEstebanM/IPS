@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const SignIn = () => {
   return (
-    <div>
+    <>
       <Nav></Nav>
       <main className="DataUser">
         <form action="">
@@ -20,17 +20,17 @@ const SignIn = () => {
           </div>
           <div>
             <i className="fa-solid fa-lock"></i>
-            <input type="text" placeholder="Contraseña" />
+            <input type="password" placeholder="Contraseña" />
           </div>
           <div>
             <i className="fa-solid fa-lock"></i>
-            <input type="text" placeholder="Repite la contraseña" />
+            <input type="password" placeholder="Repite la contraseña" />
           </div>
           <button type="submit">Registrarse</button>
         </form>
       </main>
       <Footer></Footer>
-    </div>
+    </>
   );
 };
 

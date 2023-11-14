@@ -1,12 +1,18 @@
-.DataUser{
-    margin-top:200px;
-    margin-bottom:150px;
+.Appointments{
+    display:flex;
+}
+.Appointments section{
+    width:100%;
+    margin-top:50px;
+    margin-left:2%;
+    margin-bottom:50px;
     display:flex;
     justify-content: center;
 }
-.DataUser form{
+.Appointments form{
     background-color:#35DCC2;
     width:50%;
+    max-height:68vh;
     border-radius: 20px;
     display:flex;
     flex-direction: column;
@@ -14,25 +20,31 @@
     gap:20px;
     padding:10px;
 }
-.DataUser button{
+.Appointments button{
     width:30%;
     padding:5px;
     border-radius: 20px;
 }
-.DataUser button:hover{
+.Appointments button:hover{
     background-color: #61EAD4;
 }
-.DataUser form div{
+.Appointments form div{
     width:100%;
     display:flex;
     justify-content: center;
     gap:2%;
 }
-.DataUser form div i{
+.Appointments form div i{
     font-size:50px;
     color: white;
 }
-.DataUser form div input{
+.Appointments form div input{
+    width:80%;
+    height:50px;
+    font-size:20px;
+    border-radius: 10px;
+}
+.Appointments form div select{
     width:80%;
     height:50px;
     font-size:20px;

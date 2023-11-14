@@ -20,13 +20,10 @@
     flex-direction: column;
     gap:25px;
 }
-.ProfileMenu section div{
+.ProfileMenu section button{
     display:flex;
     align-items: center;
     justify-content: flex-start;
-    gap:10px;
+    gap:24%;
     width:80%;
-}
-.ProfileMenu section div:hover{
-    background-color: #61EAD4;
 }
