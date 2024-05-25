@@ -3,6 +3,7 @@
     margin-bottom:150px;
     display:flex;
     justify-content: center;
+    text-align: center;
 }
 .DataUser form{
     background-color:#35DCC2;
@@ -18,6 +19,7 @@
     width:30%;
     padding:5px;
     border-radius: 20px;
+    background-color:#81FFEB;
 }
 .DataUser button:hover{
     background-color: #61EAD4;
@@ -29,12 +31,30 @@
     gap:2%;
 }
 .DataUser form div i{
-    font-size:50px;
+    font-size:3.125rem;
     color: white;
 }
 .DataUser form div input{
     width:80%;
     height:50px;
-    font-size:20px;
+    font-size:1.25rem;
     border-radius: 10px;
+}
+@media (min-width: 320px){
+    .DataUser{
+        margin-top:100px;
+        margin-bottom:75px;
+    }
+    .DataUser form{
+        width:90%;
+    }
+}
+@media (min-width: 768px){
+    .DataUser{
+        margin-top:200px;
+        margin-bottom:150px;
+    }
+    .DataUser form{
+        width:50%;
+    }
 }

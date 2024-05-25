@@ -49,7 +49,7 @@ const SignIn = () => {
         <form onSubmit={handleSubmit}>
           <h2>Ingresa tus datos</h2>
           <div>
-            <i className="fa-solid fa-user"></i>
+            <i className="fa-regular fa-address-card"></i>
             <input
               type="number"
               placeholder="CC"
@@ -79,7 +79,7 @@ const SignIn = () => {
             />
           </div>
           <div>
-            <i className="fa-solid fa-user"></i>
+            <i className="fa-solid fa-phone"></i>
             <input
               type="number"
               placeholder="Telefono"

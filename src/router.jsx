@@ -10,7 +10,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: <Dashboard />,
   },
   {
     path: '/Login',
@@ -20,23 +20,26 @@ export const router = createBrowserRouter([
     path: '/SignIn',
     element: <SignIn />,
   },
-  /*{
-    path: '/Dasboard',
+  {
+    path: '/Dashboard',
     element: (
       <ProtectedRoute>
-        {' '}
-        <Dashboard />
+        <Dashboard></Dashboard>
       </ProtectedRoute>
     ),
     children: [
       {
-        path: '/Create',
+        path: '',
+        element: <Dashboard />,
+      },
+      {
+        path: 'Create',
         element: <CreateAppointment />,
       },
       {
-        path: '/Read',
+        path: 'Read',
         element: <ReadAppointment />,
       },
     ],
-  },*/
+  },
 ]);

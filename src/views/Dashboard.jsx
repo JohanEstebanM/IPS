@@ -14,7 +14,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="Dashboard">
-        <ProfileMenu></ProfileMenu>
+        <ProfileMenu />
         <div>
           <header>
             <h1>Bienvenido Johan</h1>
@@ -34,7 +34,7 @@ const Dashboard = () => {
           </main>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

@@ -18,11 +18,11 @@ header div{
     display:flex;
     align-items: center;
     gap:5%;
-    font-size:30px;
+    font-size:1.875rem;
     justify-content: flex-end;
 }
 header div input{
-    font-size:22px;
+    font-size:1.375rem;
 }
 .Dashboard Main{
     margin-top:50px;

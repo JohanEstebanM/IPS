@@ -25,7 +25,6 @@ const Nav = () => {
       </div>
       <section>
         <button onClick={handleLoginClick}>Iniciar Sesion</button>
-        <button onClick={handleSignInClick}>Registrarse</button>
       </section>
     </nav>
   );
